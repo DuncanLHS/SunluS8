@@ -1,0 +1,3 @@
+[submodule "Firmware/Stock"]
+	path = Firmware/Stock
+	url = https://github.com/LittleHobbyShop/Marlin.git
