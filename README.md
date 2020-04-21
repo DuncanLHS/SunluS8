@@ -1,5 +1,4 @@
 # SunluS8
-<<<<<<< HEAD
 
 Unofficial firmware and modifications for the Sunlu S8
 
@@ -13,6 +12,3 @@ NB. If updating from Marlin V1 and Err: EEPROM Version is displayed send M502 fo
 
 - **loadFilament** - Manually load filament until you can see a few mm in the PTFE then run to load the filament and purge the nozzle a small amount.
 - **unloadFilament** - Unloads loaded filament.
-=======
-Modifications for the Sunlu S8 3D Printer
->>>>>>> dev
