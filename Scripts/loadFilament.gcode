@@ -1,14 +1,23 @@
-G21 ;Let the printer know you are following this point with metric values
-G90 ;Let the printer know you are using absolute positioning
-;M92 E415 ; Set esteps for Bondtech BMG
-M109 S210.000 ;Heat hotend to 210C
+G21 ; set metric
+M83 ;Relative positioning E
+G92 E0 ;Reset E
+
+M104 S210 ;Set hotend temp and continue
+M117 Loading Filament...
+M302 P1 ;Allow cold extrudes
+G1 E200 F2000;Extrude
+G1 E200 ;Extrude
+G1 E20 ;Extrude
+M302 S170 ;Hot extrudes only
+M109 S210; Wait for hotend
+G1 E10 F200 ;Final hot extrude
+
+G92 E0 ;Reset E
+M82 ;Back to absolute
+
+M400 ;Clear stack
+M117 Filament Loaded
 M300 S440 P200 ; Play tone
 M300 S660 P250 ; Play tone
 M300 S880 P300 ; Play tone
-G4 S5 ; wait 5 seconds
-G92 E0 ;Reset the position of the extruder
-G1 E200 F2000 ;Feed 400 mm of filament at 2000 mm/minute speed. Fast move.
-G92 E0 ;Reset the position of the extruder
-G1 E100 F200 ;Feed 100 mm of filament at 200 mm/minute speed. Slow move.
-G92 E0 ;Reset the position of the extruder
-M400; finish move
+M400 ;Clear stack
