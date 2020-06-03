@@ -11,6 +11,7 @@ If updating from another build or version, take note of any customised settings 
 ### Differences from stock
 Changes over the files released on the Sunlu forum.
 
+- Enabled [linear advance](https://marlinfw.org/docs/features/lin_advance.html)
 - Enabled [G10/G11 firmware retraction](https://marlinfw.org/docs/features/fwretract.html). Great for retraction tuning with changes during print.
 - Enable [G26 mesh validation](https://marlinfw.org/docs/gcode/G026.html).
 - Adjust mesh levelling points closer to bed screws.
