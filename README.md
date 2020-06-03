@@ -19,7 +19,7 @@ Changes over the files released on the Sunlu forum.
 - Enabled baby-stepping and access during print by double clicking the encoder wheel.
 - Enabled [M486 cancel objects](https://marlinfw.org/docs/gcode/M486.html).
 - Increased intial homing speed.
-- Enabled advanced pause with filament loading, unloading, and change via [M600](https://marlinfw.org/docs/gcode/M600.html).
+- Enabled advanced pause with filament loading, unloading, and change via [M600](https://marlinfw.org/docs/gcode/M600.html). Works best with the [Dropping Filament Runout](https://github.com/LittleHobbyShop/SunluS8/tree/master/Mods/Dropping%20Filament%20Sensor) mod
 - Enable host action commands.
 
 ## Scripts
